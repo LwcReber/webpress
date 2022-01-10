@@ -13,6 +13,7 @@ defer 属性仅适用于外部脚本（只有在使用 src 属性时）
 
 src和href的区别
 src 资源来源地址，是引入该资源   img，script，iframe 标签上用
+
 href 超文本引用，a，link标签上用
 link标签链接样式表
 
