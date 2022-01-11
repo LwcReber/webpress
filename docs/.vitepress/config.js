@@ -46,7 +46,11 @@ module.exports = {
         },
         {
           text: 'JS',
-          link: '/base/js'
+          children: [
+            {text: '数据类型', link: '/base/js/data'},
+            {text: '面向对象', link: '/base/js/object'},
+            {text: 'new', link: '/base/js/new'},
+          ]
         }
       ],
       '/http': [
