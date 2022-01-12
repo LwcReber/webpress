@@ -88,9 +88,9 @@ new Function(arg1, functionBody ) 传入行参，会执行JavaScript 语句的�
 
 判断基本数据类型
 
- typeof NaN = 'number' 
+typeof NaN = 'number' 
 
-fn typeof = 'function'
+typeof fn  = 'function'
 
 object array , null 判断为object
 
