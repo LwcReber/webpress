@@ -109,3 +109,6 @@ js执行会阻止CSSOM，除非声明为异步
 
 javaScript >>> Style >>> Layout （布局）>>> Paint（绘制） >>> Composite（图层合成）![](/base/img/frame.png)
 
+
+
+实现一个扇形
