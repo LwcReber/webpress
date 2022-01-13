@@ -49,7 +49,8 @@ module.exports = {
           children: [
             {text: '数据类型', link: '/base/js/data'},
             {text: '面向对象', link: '/base/js/object'},
-            {text: 'new', link: '/base/js/new'},
+            {text: 'this', link: '/base/js/this'},
+            {text: 'new', link: '/base/js/new'}
           ]
         }
       ],
@@ -61,7 +62,8 @@ module.exports = {
         {
           text: '缓存',
           link: '/http/cache'
-        }
+        },
+        {text: 'link', link: '/http/link'},
       ],
       '/vue': [
         {

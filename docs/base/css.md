@@ -112,3 +112,38 @@ javaScript >>> Style >>> Layout （布局）>>> Paint（绘制） >>> Composite�
 
 
 实现一个扇形
+
+clip 属性剪裁绝对定位元素, rect (*top*, *right*, *bottom*, *left*)
+
+```html
+<style>
+  .out{
+    height: 300px;
+    width: 300px;
+    transform: rotate(90deg);
+  } 
+  .content {
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 99;
+    clip: rect(0, 300px, 300px, 150px);
+  }
+  .inner  {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0, 150px, 300px, 0);
+    transform: rotate(90deg);
+  }
+</style>
+<div class="out">
+  <div class="content">
+    <div class="inner"></div>
+  </div>
+</div>
+```
+
