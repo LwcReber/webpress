@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,b as s}from"./app.89496c5a.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/index.md","lastUpdated":1641782324530}',o={},n=s("p",null,"vue",-1),r=[n];function c(d,_,p,i,l,u){return a(),t("div",null,r)}var h=e(o,[["render",c]]);export{m as __pageData,h as default};
