@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/', 
+  base: '/webpress', 
   title: '前端技术文档',
   description: ' ',
   plugins: ['fulltext-search', '@vuepress/back-to-top'],
